@@ -1,9 +1,11 @@
 ## Steps to run the application
 ### 1. clone the repo
-
+```bash
+https://github.com/navdhakar/webRTC-record.git
+```
 ### 2 go to the repo.
 ```bash
-mkdir upload
+cd webRTC-record
 ```
 ### 3. install dependency
 ```bash
