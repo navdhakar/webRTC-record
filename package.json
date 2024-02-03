@@ -1,0 +1,50 @@
+{
+  "name": "recordrtc-nodejs",
+  "preferGlobal": true,
+  "version": "1.0.6",
+  "author": {
+    "name": "Navdeep Dhakar",
+    "email": "navdepdhakar1@gmail.com"
+  },
+  "description": "Records audio/video separately as wav/webm. POST both files in single HttpPost-Request to Node.js (FormData). Node.js code saves both files into disk. Node.js code invokes ffmpeg to merge wav/webm in single webm file. The merged webm file's URL is returned using same HTTP-callback for playback!",
+  "contributors": [
+    {
+      "name": "Navdeep Dhakar",
+      "email": "navdepdhakar1@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "webrtc",
+    "javascript",
+    "RecordRTC",
+    "Node.js",
+    "ffmpeg",
+    "audio-recording",
+    "video-recording",
+    "gif-recording",
+    "audio/video recording",
+    "webp",
+    "webm",
+    "wav"
+  ],
+  "analyze": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "latest",
+    "mime": "latest",
+    "recordrtc": "latest"
+  }
+}
