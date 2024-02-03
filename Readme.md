@@ -3,7 +3,7 @@
 ```bash
 git clone https://github.com/navdhakar/webRTC-record.git
 ```
-### 2 go to the repo.
+### 2. go to the repo.
 ```bash
 cd webRTC-record
 ```
