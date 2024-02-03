@@ -1,10 +1,7 @@
 ## Steps to run the application
 ### 1. clone the repo
 
-### 2. create a new folder for video store inside the repo.
-```bash
-cd webRTC-record
-```
+### 2 go to the repo.
 ```bash
 mkdir upload
 ```
